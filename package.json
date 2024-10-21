@@ -1,0 +1,17 @@
+{
+  "name": "webcontainerdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run prepare && vite",
+    "prepare": "node ./autoloader.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@webcontainer/api": "^1.0.2",
+    "vite": "^4.1.0",
+    "xterm": "^5.1.0"
+  }
+}
